@@ -3,17 +3,17 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.wm.test</groupId>
-	<artifactId>walmartTest</artifactId>
+	<artifactId>TicketService</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>Walmart Ticket Service</name>
+	<name>Ticket Service</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<spring.version>RELEASE</spring.version>
-		<jackson.version>2.2.3</jackson.version>
+		<spring.version>[4.3.17,)</spring.version>
+		<jackson.version>[2.9.10.1,)</jackson.version>
 		<jetty.version>9.0.2.v20130417</jetty.version>
 		<slf4j.version>1.6.1</slf4j.version>
 		<log4j.version>1.2.17</log4j.version>
